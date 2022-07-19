@@ -1,0 +1,105 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+h1,h2{
+  color: white;
+}
+body{
+  background-color:#171717;
+}
+.todoContainer{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.todoContent{
+  display: flex;
+}
+.addCard{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin-left: 100px;
+}
+.addCard h2{
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.addCard form{
+  display: flex;
+  justify-content: space-around;
+}
+.addCard form input{
+  width: 700px;
+  padding: 10px;
+  background-color: #2F2F2F;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 20px;
+}
+.addCard form button{
+  font-size: 20px;
+  padding: 10px 50px;
+  background-color: #c620A7;
+  color: white;
+  border-radius: 5px;
+  margin-left: 50px;
+  outline: none;
+  cursor: pointer;
+}
+.addCardContainer{
+  width: 1300px;
+  margin: auto;
+}
+.addCardContainer h2{
+  margin-top: 50px;
+}
+.cardContainer{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  /* border: 2px solid white; */
+  /* padding: 20px; */
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  /* border: 2px solid rebeccapurple; */
+  padding: 20px;
+  background-color: #2F2F2F;
+  border-radius: 10px;
+  filter: drop-shadow(0px,0px,16px);
+  opacity: 0.8;
+  margin-bottom:50px;
+}
+.card h2{
+  margin: 0px;
+}
+.btnContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.btnContainer button{
+  cursor: pointer;
+}
+.extraCard{
+  border: 2px solid #7AB530;
+}
+.headImg{
+  display: flex;
+  justify-content: space-between;
+  width: 335px;
+}
+.extraCard img{
+  width: 30px;
+  height: 30px;
+  overflow: none;
+}
